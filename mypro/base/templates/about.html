@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class="detail">
+    <h1>{{data.name}}</h1>
+    <div class="inf">
+        <h3>Category : {{data.category}}</h3>
+        <h3>Name : {{data.name}}</h3>
+        <h3>Description : {{data.desc}}</h3>
+        <h3>Price : {{data.price}}</h3>
+    </div>
+{% endblock %}

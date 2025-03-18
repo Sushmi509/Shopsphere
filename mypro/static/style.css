@@ -1,0 +1,188 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Navbar */
+nav {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(45deg, #4CAF50, #2196F3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #F1F1F1;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.links a:hover {
+    color: #fff;
+    background-color: #673AB7;
+    border-radius: 10px;
+}
+
+/* Second Navbar (Trending, Sale) */
+.second-nav {
+    width: 100%;
+    background: linear-gradient(45deg, #2196F3, #4CAF50);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Trending and Sale on the left side */
+.second-nav .left-options {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.second-nav .left-options a {
+    text-decoration: none;
+    color: white;
+    background-color: #FFC107;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.second-nav .left-options a:hover {
+    background-color: #D32F2F;
+    color: white;
+}
+
+/* Search Bar */
+.search {
+    margin-left: auto; /* Pushes search bar to the right */
+}
+
+.search input[type="text"] {
+    border: 1px solid #FFD700;
+    height: 35px;
+    width: 180px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.search input[type="submit"] {
+    border: none;
+    background-color: #FFD700;
+    color: #D32F2F;
+    font-weight: bold;
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search input[type="submit"]:hover {
+    background-color: #673AB7;
+    color: #FFD700;
+}
+
+/* Home Section */
+.home {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.addcard {
+    background: linear-gradient(45deg, #4CAF50, #2196F3);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.addcard h2 {
+    font-size: 18px;
+    color: #1B5E20;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.addcard h3 {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.addcard a {
+    display: inline-block;
+    background-color: #FFC107;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.addcard a:hover {
+    background-color: #009688;
+}
+
+/* Categories Section */
+.categories {
+    background: linear-gradient(45deg, #2196F3, #4CAF50);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+}
+
+.categories_form .btn:hover {
+    background-color: #3F51B5;
+    color: white;
+}
+
+.categories_form .btn-secondary {
+    background-color: #FFD700;
+    color: #D32F2F;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.categories_form .btn-secondary:hover {
+    background-color: #673AB7;
+    color: #FFD700;
+}
+
+/* Button Styling */
+.button {
+    color: #8E24AA;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+
+

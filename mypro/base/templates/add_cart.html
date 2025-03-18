@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+{% block content %}
+<div class="home">
+    
+    {% for i in a %}
+    <div class="addcard">
+        <h2>{{i.name}}</h2>
+        <img class="img" src="{{i.image.url}}" alt="">
+        <h2>{{i.desc}}</h2>
+        <h2>{{i.price}}</h2>
+        <a href="{% url 'addcart' i.id %}">add_cart</a>
+        <a href="">Details</a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
