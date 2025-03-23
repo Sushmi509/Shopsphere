@@ -24,3 +24,8 @@ Shopsphere is a basic e-commerce web application built using Django. The goal of
 4. Run `python manage.py runserver`
 5. Open browser at `http://127.0.0.1:8000/`
 
+## ✨ Future Enhancements
+- Add product filtering by category
+- Integrate payment gateway (e.g., Razorpay)
+- Add admin dashboard to manage orders 
+
